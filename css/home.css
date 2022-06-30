@@ -18,6 +18,14 @@ nav li {
   padding: 1em;
 }
 
+nav li:hover {
+  background-color: rgb(49, 108, 77);
+}
+
+nav li a:hover {
+  color: aliceblue;
+}
+
 nav img {
   margin-top: 1px;
   width: 128px;
@@ -69,4 +77,75 @@ nav li.active {
 .carousel-item {
   width: 50%;
   height: 30em;
+}
+
+.container2 {
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin-left: 10em;
+}
+
+.container2 .box {
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+  border: 2px solid rgb(6, 6, 6);
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.container2 .box:hover {
+  transform: translate(20px);
+  box-shadow: 5px 10px;
+}
+
+.container2 .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.container2 .box .icon {
+  position: relative;
+  text-align: center;
+  top: 22px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.container2 .box .para {
+  position: absolute;
+  top: 100px;
+  height: 100%;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.container2 .box h3 {
+  margin: 0%;
+  padding: 0%;
+  color: #0e0d0d;
+  text-align: center;
+}
+
+.button1 {
+  margin-left: 12em;
+  border-radius: 15em;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
