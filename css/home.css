@@ -1,0 +1,72 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+nav {
+  overflow: hidden;
+  background-color: #0e0d0d;
+}
+
+nav a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+  padding: 1em;
+}
+
+nav img {
+  margin-top: 1px;
+  width: 128px;
+  float: left;
+}
+
+nav li.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.content {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.community {
+  flex-basis: 60%;
+  margin-top: 2em;
+  margin-right: 6em;
+}
+
+.text {
+  display: block;
+  padding-right: 12em;
+  margin-top: 7em;
+  padding-left: 5em;
+}
+
+.button {
+  margin-top: 1em;
+  border-radius: 15em;
+}
+
+.container {
+  display: flex;
+}
+
+.box1 {
+  padding: 1em;
+}
+
+.carousel-inner {
+  padding: 3em;
+}
+
+.carousel-item {
+  width: 50%;
+  height: 30em;
+}
